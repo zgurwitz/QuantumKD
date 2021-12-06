@@ -2,11 +2,7 @@ import java.util.Random;
 public class driver {
 	public static void main(String args[]) {
 		QKD(12, Basis.HV, Basis.DA);
-		System.out.println("All that would change with the protocol is the basis "
-				+ "inputs, as there is equal likelihood of being undiscovered "
-				+ "with circular polarization or other types, Though I suppose you"
-				+ "do need to callibrate circular polarizers diferently than "
-				+ "rectalinear ones");
+
 		QCT(12, Basis.HV, Basis.DA);
 	
 	}
